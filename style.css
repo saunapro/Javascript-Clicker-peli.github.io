@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(tausta/backgroubd.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+h1{
+    color:yellow;
+    font-weight: bolder;
+}
+h2{
+    color:yellow;
+    font-weight: bold;
+
+}
+::-webkit-scrollbar {
+    display: none;
+
+}
+#powerups{
+    display:none;
+}
+.powerup5{
+    display: none;
+    
+}

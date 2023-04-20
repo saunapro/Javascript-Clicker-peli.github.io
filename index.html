@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>SUPER TURBO PINKY PUNCHER</title>
+    
+</head>
+<body>
+    <div class="text-center row p-2">
+    <h1>SUPER TURBO PINKY PUNCHER</h1>
+</div>
+   
+
+<div class=""></div>
+<div class="text-center container-fluid sisältö">
+  <form action="">   
+    <input type="image" id="nappi" src="grafiikat/pinky.png" onclick=" pisteidenLisays(event); soitaAani(); kuvanVaihto(); pelaajanKiusaus(); salaisuus();"/>
+    <audio id="audio">
+      <source src="aani/kipu.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio1">
+      <source src="aani/musa.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio2">
+        <source src="aani/punch.mp3" type="audio/mp3">
+      </audio>
+  </form>
+
+<div class="text-center"><h2 id="aloitus">CLICK THE PINKY TO START</h2></div>
+</div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>  
+<div class="text-center">
+    
+  </div>
+    <div id="powerups" class="text-center">
+    <input type="image" src="grafiikat/berserk.png" class="powerup1" onclick="berserk()">
+    <input type="image" src="grafiikat/ssg.png" class="powerup2" onclick="superShotgun()">
+    <input type="image" src="grafiikat/rocket.png" class="powerup3" onclick="rocketLauncher()">
+    <input type="image" src="grafiikat/BFG.png" class="powerup4" onclick="bigGun()">
+    <div class=""></div>
+    <input type="image" id="virhe" src="grafiikat/gamebreakingbug.png" class="powerup5" onclick="rikoPeli();">
+    <audio id="audio4">
+      <source src="aani/power.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio5">
+      <source src="aani/upgrade.mp3" type="audio/mp3">
+    </audio>
+  </div>
+</body>
+
+</html>
